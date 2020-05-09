@@ -1,5 +1,10 @@
 * {box-sizing: border-box}
 
+
+/*----------------------------------------------------------------------------*/
+/*                                 TABS                                       */
+/*----------------------------------------------------------------------------*/
+
 /* Set height of body and the document to 100% */
 body, html {
   height: 100%;
@@ -33,6 +38,28 @@ body, html {
 }
 
 #Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
+#Learning {background-color: green;}
+#Subscribe {background-color: blue;}
 #About {background-color: orange;}
+
+/*----------------------------------------------------------------------------*/
+/*                                 HOME STYLES                                */
+/*----------------------------------------------------------------------------*/
+
+.guinea-in-grass {
+  float: left;
+  border: 7px solid #ddd;
+  border-radius: 4px;
+  padding: .5px;
+  width: 50%;
+  margin-right: 15px;
+}
+
+/* Rounded image */
+.rounded {
+  border-radius: 0 7% 7% 0;
+  filter: drop-shadow(0 0 4px #333);
+  margin-right: 30px;
+ 
+/* Fact of the Day */
+
