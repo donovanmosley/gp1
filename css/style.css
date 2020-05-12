@@ -59,17 +59,56 @@ body, html {
 .guinea-in-grass {
   float: left;
   border: 7px solid #ddd;
-  border-radius: 4px;
   padding: .5px;
   width: 50%;
   margin-right: 15px;
 }
 
-/* Rounded image */
 .rounded {
   border-radius: 0 7% 7% 0;
   filter: drop-shadow(0 0 4px #333);
   margin-right: 30px;
- 
+}
+
+
 /* Fact of the Day */
+
+.brown-guinea {
+  float: right;
+  border: 7px solid #ddd;
+  padding: .5px;
+  width: 50%;
+  margin-left: 15px;
+}
+
+.rounded-2 {
+  border-radius: 7% 0 0 7%;
+  filter: drop-shadow(0 0 4px #333);
+  margin-left: 30px;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/*                                 LEARNING CENTER STYLES                                */
+/*----------------------------------------------------------------------------*/
+
+
+
+
+/*----------------------------------------------------------------------------*/
+/*                                 SUBSCRIBE STYLES                                */
+/*----------------------------------------------------------------------------*/
+
+
+
+
+
+
+/*----------------------------------------------------------------------------*/
+/*                                 ABOUT ME STYLES                                */
+/*----------------------------------------------------------------------------*/
+
+
+
+
 
