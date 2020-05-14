@@ -103,10 +103,10 @@ body, html {
 
 /* Tutorials */
 
-.tutorials {
+.home-video {
   float: left;
   padding: .5px;
-  width: 40%;
+  width: 50%;
   margin-right: 15px;
 }
 
