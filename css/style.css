@@ -6,19 +6,41 @@
 /*                              Main Styles                                   */
 /*----------------------------------------------------------------------------*/
 
-header {
-  padding-left: 10px;
+.header {
+  padding-left: 25px;
   text-align: left;
   background: white;
   color: black;
   font-size: 20px;
+  display: inline;
 }
+
 
 /* Set height of body and the document to 100% */
 body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
+}
+
+h1 {
+  margin-left: 11px;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.subtitle {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.icon {
+  background: url('/img/guinea_pig_icon.png');
+  height: 55px;
+  width: 75px;
+  display: inline-block;
+  /* Other styles here */
 }
 
 /*----------------------------------------------------------------------------*/
@@ -65,8 +87,20 @@ body, html {
   content: "";
   visibility: hidden;
   display: block;
-  height: 2em;
+  height: .5em;
   clear: both;
+}
+
+.long-hair-guinea {
+  float: right;
+  border: 7px solid #ddd;
+  padding: .5px;
+  width: 200px;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 50%;
+  vertical-align: middle
 }
 
 .guinea-in-grass {
