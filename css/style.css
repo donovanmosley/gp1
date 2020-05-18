@@ -29,6 +29,16 @@ h1 {
   margin-top: 0px;
 }
 
+hr {
+  height: 2px;
+  width: 50%;
+  border-width: 0;
+  color: gray;
+  background-color: white;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
 .subtitle {
   margin-top: 10px;
   margin-left: 20px;
@@ -179,5 +189,11 @@ h1 {
 
 
 
+/* Footer */
 
-
+.footer {
+  padding: 3px;
+  background-color: #555;
+  color: white;
+  text-align: center;
+}
