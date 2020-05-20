@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Guinea Pigs!</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <div class="header clearfix">
   <img src="img/karlijn-prot-3fjyk4CLfvA-unsplash.jpg" alt="long-hair-guinea-pig" class="long-hair-guinea">
   <h1><span class='icon'></span>..Welcome to My Guinea Piggies!</h1>
-  <p class="subtitle">Here, home is where the guine pig is.</p>
+  <p class="subtitle">Here, home is where the guinea pig is.</p>
 </div>
 
 <body>
-<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
-<button class="tablink" onclick="openPage('Learning', this, 'green')">Learning Center</button>
-<button class="tablink" onclick="openPage('Subscribe', this, 'blue')">Subscribe</button>
-<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen"><i class="fa fa-fw fa-home"></i>Home</button>
+<button class="tablink" onclick="openPage('Learning', this, 'green')"><i class="fa fa-fw fa-cogs"></i>Learning Center</button>
+<button class="tablink" onclick="openPage('Subscribe', this, 'blue')"><i class="fa fa-fw fa-heart"></i>Subscribe</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')"><i class="fa fa-fw fa-smile-o"></i>About</button>
 
 <div id="Home" class="tabcontent">
   <h3>Wecome to My Guinea Piggies</h3>
@@ -78,8 +79,32 @@
 <script src="myScript.js"></script>
 
 <div class="footer">
-  <p>Website Design: Donovan Mosley 2020<br>
-  <a href="mailto:dmosley28@gmail.com">dmosley@gmail.com</a></p>
+    <p>Created by: Donovan Mosley 2020<br>
+    <a href="mailto:dmosley28@gmail.com" class="footer__link">dmosley28@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://linkedin.com/in/donovanmosley">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com/CreationsLion">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/donovanmosley">
+          <i class="fa fa-github"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://dribbble.com">
+          <i class="fa fa-dribbble"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+
 </div>
 
 </body>
