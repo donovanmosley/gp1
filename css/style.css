@@ -10,7 +10,7 @@
   padding-left: 25px;
   text-align: left;
   background: white;
-  color: black;
+  color: #030301;
   font-size: 20px;
   display: inline;
 }
@@ -34,7 +34,7 @@ hr {
   width: 50%;
   border-width: 0;
   color: gray;
-  background-color: white;
+  background-color: #030301;
   margin-top: 3em;
   margin-bottom: 3em;
 }
@@ -72,6 +72,10 @@ hr {
   width: 25%;
 }
 
+.welcome:active{
+  color: #030301;
+}
+
 i {
   padding-right: 1.5em;
 }
@@ -82,16 +86,16 @@ i {
 
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
-  color: white;
+  color: #030301;
   display: none;
   padding: 100px 20px;
   height: 100% auto;
 }
 
-#Home {background-color: red;}
-#Learning {background-color: green;}
-#Subscribe {background-color: blue;}
-#About {background-color: orange;}
+#Home {background-color:  #FBE57B;}
+#Learning {background-color: #00D9C0;}
+#Subscribe {background-color: #FF4365;}
+#About {background-color: #1B2A41;}
 
 /*----------------------------------------------------------------------------*/
 /*                                 HOME STYLES                                */
@@ -179,18 +183,27 @@ i {
 
 
 /*----------------------------------------------------------------------------*/
-/*                                 SUBSCRIBE STYLES                                */
+/*                                 SUBSCRIBE STYLES                           */
+/*----------------------------------------------------------------------------*/
+
+.subscribe{
+  color: #FFFFFF;
+}
+
+
+
+/*----------------------------------------------------------------------------*/
+/*                                 ABOUT ME STYLES                            */
 /*----------------------------------------------------------------------------*/
 
 
-
-
-
+.about_me{
+  color: #FFFFFF;
+}
 
 /*----------------------------------------------------------------------------*/
-/*                                 ABOUT ME STYLES                                */
+/*                                     FOOTER                                 */
 /*----------------------------------------------------------------------------*/
-
 
 
 /* Footer */
