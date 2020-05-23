@@ -21,6 +21,7 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
+  font-weight: 200;
 }
 
 h1 {
@@ -69,10 +70,11 @@ hr {
   cursor: pointer;
   padding: 14px 16px;
   font-size: 18px;
+  font-weight: 200;
   width: 25%;
 }
 
-.welcome:active{
+.welcome {
   color: #030301;
 }
 
@@ -93,9 +95,9 @@ i {
 }
 
 #Home {background-color:  #FBE57B;}
-#Learning {background-color: #00D9C0;}
-#Subscribe {background-color: #FF4365;}
-#About {background-color: #1B2A41;}
+#Learning {background-color: #23E4D2;}
+#Subscribe {background-color: #87D982;}
+#About {background-color: #8D93AD;}
 
 /*----------------------------------------------------------------------------*/
 /*                                 HOME STYLES                                */
@@ -187,7 +189,7 @@ i {
 /*----------------------------------------------------------------------------*/
 
 .subscribe{
-  color: #FFFFFF;
+  color: #030301;
 }
 
 
@@ -198,7 +200,7 @@ i {
 
 
 .about_me{
-  color: #FFFFFF;
+  color: #030301;
 }
 
 /*----------------------------------------------------------------------------*/

@@ -10,8 +10,11 @@ function openPage(pageName,elmnt,color) {
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
       tablinks[i].style.backgroundColor = "";
+      tablinks[i].style.color="";
     }
-
+    // Makes all toblink colors black when selected
+    elmnt.style.color = "black";
+    
     // Show the specific tab content
     document.getElementById(pageName).style.display = "block";
     
@@ -21,3 +24,4 @@ function openPage(pageName,elmnt,color) {
   
   // Get the element with id="defaultOpen" and click on it
   document.getElementById("defaultOpen").click();
+  
