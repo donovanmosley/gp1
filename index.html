@@ -123,6 +123,27 @@
 <div id="Subscribe" class="tabcontent subscribe">
   <h3>Subscribe</h3>
   <p>Get in touch, or swing by for a cup of coffee.</p>
+    
+  <form action="/my-handling-form-page" method="post">
+    <ul>
+     <li>
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="user_name">
+     </li>
+     <li>
+       <label for="mail">E-mail:</label>
+       <input type="email" id="mail" name="user_email">
+     </li>
+     <li>
+       <label for="msg">Message:</label>
+       <textarea id="msg" name="user_message"></textarea>
+     </li>
+     <li class="button">
+      <button type="submit">Send your message</button>
+    </li>
+    </ul>
+   </form>
+
 </div>
 
 <div id="About" class="tabcontent about_me">
