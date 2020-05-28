@@ -121,27 +121,51 @@
 </div>
 
 <div id="Subscribe" class="tabcontent subscribe">
-  <h3>Subscribe</h3>
+  <h2>Subscribe</h2>
   <p>Get in touch, or swing by for a cup of coffee.</p>
     
   <form action="/my-handling-form-page" method="post">
+    <h3>Contact Information</h3>
+    <p>Required fields are followed by <abbr title="required">*</abbr>.</p>
     <ul>
      <li>
-       <label for="name">Name:</label>
-       <input type="text" id="name" name="user_name">
+       <label for="name"><abbr title="required">*</abbr>First name:</label>
+       <input type="text" id="first_name" name="user_name">
      </li>
      <li>
-       <label for="mail">E-mail:</label>
+      <label for="name">*Last name:</label>
+      <input type="text" id="last_name" name="user_name">
+    </li>
+     <li>
+       <label for="mail">*E-mail:</label>
        <input type="email" id="mail" name="user_email">
      </li>
+     <li>
+      <label for="breed">Favorite Guinea Breed:</label><br>
+      <select id="breed" name="usercard">
+        <option value="abyssinian">Abyssinian Guinea Pig</option>
+        <option value="alpaca">Alpaca Guinea Pig</option>
+        <option value="american">American Guinea Pig</option>
+        <option value="baldwin">Baldwin Guinea Pig</option>
+        <option value="coronet">Coronet Guinea Pig</option>
+        <option value="himalayan">Himalayan Guinea Pig</option>
+        <option value="lunkarya">Lunkarya Guinea Pig</option>
+        <option value="merino">Merino Guinea Pig</option>
+        <option value="peruvian">Peruvian Guinea Pig</option>
+        <option value="rex">Rex Guinea Pig</option>
+        <option value="sheba">Sheba Guinea Pig</option>
+        <option value="silkie">Silkie Guinea Pig</option>
+        <option value="skinny">Skinny Guinea Pig</option>
+      </select>
+    </li>
      <li>
        <label for="msg">Message:</label>
        <textarea id="msg" name="user_message"></textarea>
      </li>
-     <li class="button">
-      <button type="submit">Send your message</button>
-    </li>
     </ul>
+    <p class="button">
+      <button type="submit">Subscribe!</button>
+    </p>
    </form>
 
 </div>

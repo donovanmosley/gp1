@@ -215,12 +215,13 @@ form li + li {
 label {
   /* Uniform size & alignment */
   display: inline-block;
-  width: 90px;
-  text-align: right;
+  width: 165px;
+  text-align: left;
 }
 
 input, 
-textarea {
+textarea,
+select {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
   font: 1em sans-serif;
