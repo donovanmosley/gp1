@@ -181,7 +181,14 @@ i {
 /*                                 LEARNING CENTER STYLES                                */
 /*----------------------------------------------------------------------------*/
 
+.carousel-caption {
 
+}
+
+.tstyle {
+  background-color: white;
+  width: 1050px;
+}
 
 
 /*----------------------------------------------------------------------------*/
@@ -292,7 +299,7 @@ h2 {
     font-size: 1em;
     font-weight: 300;
     margin: 0;
-    padding: 10px 0 30px 0;
+    padding: 20px 0 20px 0;
 }
 
 #home h2 {
