@@ -441,3 +441,21 @@ span {
 .social-list__link {
   padding: .5em;
 }
+
+
+/*----------------------------------------------------------------------------*/
+/*                                   MEDIA QUERY                              */
+/*----------------------------------------------------------------------------*/
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 750px) {
+  .tablink {
+    float: none;
+    width: 100%;
+  }
+
+  .tabcontent {
+    padding-top: 10px;
+  }
+}
+
