@@ -15,12 +15,12 @@
   display: inline;
 }
 
-
 /* Set height of body and the document to 100% */
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Arial;
+  font-family: 'Barlow';
+  font-size: 22px;
   font-weight: 200;
 }
 
@@ -29,6 +29,12 @@ h1 {
   margin-bottom: 5px;
   margin-top: 0px;
 }
+
+
+h1::first-letter {
+  font-size: 60px;
+}
+
 
 hr {
   height: 2px;
@@ -44,6 +50,7 @@ hr {
   margin-top: 10px;
   margin-left: 20px;
   margin-bottom: 5px;
+  font-family: "Lato";
 }
 
 .icon {
