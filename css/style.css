@@ -10,16 +10,16 @@
   padding-left: 25px;
   text-align: left;
   background: white;
-  color: #030301;
+  color: white;
   font-size: 20px;
-  display: inline;
+  /* display: inline; */
+  background: url("/img/field_of_flowers.jpg");
 }
 
 /* Set height of body and the document to 100% */
 body, html {
   height: 100%;
   margin: 0;
-  font-family: 'Barlow';
   font-size: 22px;
   font-weight: 200;
 }
@@ -58,6 +58,7 @@ hr {
   height: 55px;
   width: 75px;
   display: inline-block;
+  color: white;
   /* Other styles here */
 }
 
