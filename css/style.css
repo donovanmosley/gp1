@@ -98,7 +98,7 @@ i {
 .tabcontent {
   color: #030301;
   display: none;
-  padding: 100px 20px;
+  padding: 50px 0px;
   height: 100% auto;
 }
 
@@ -129,6 +129,26 @@ i {
   margin-top: 15px;
   border-radius: 50%;
   vertical-align: middle
+}
+
+.gp-mission{
+  position: relative;
+}
+
+.guinea-carrot-1 {
+  width: 100%;
+  margin: 0 auto;
+  /* padding-top: 0px; */
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .guinea-in-grass {
@@ -380,7 +400,7 @@ li {
 }
 
 span {
-  color: red;
+  color: white;
 }
 
 
