@@ -138,17 +138,25 @@ i {
 .guinea-carrot-1 {
   width: 100%;
   margin: 0 auto;
+  border-top: white .5rem solid;
   /* padding-top: 0px; */
+}
+
+.learning-link {
+  background-color: #FBE57B;
+  color: black;
+  border-radius: .35em;
 }
 
 .text-block {
   position: absolute;
-  bottom: 20px;
+  top: 50px;
   right: 20px;
-  background-color: black;
+  background-color: #413C58;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: .5em;
 }
 
 .guinea-in-grass {
@@ -163,6 +171,48 @@ i {
   border-radius: 0 7% 7% 0;
   filter: drop-shadow(0 0 4px #333);
   margin-right: 30px;
+}
+
+/*  Flexbox Container  */
+
+figure {
+  margin: 0;
+  line-height: 0;
+position: relative;
+}
+
+figcaption {
+  font-size: .9em;
+  line-height: 1.5;
+  color: #fff;
+  padding: 1em;    
+  background: rgba(19,43,102, .85);
+
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+
+.col {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.icon-location {
+    width: 35px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+  }
+  
+  .feat-img {
+    width: 300px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: solid 1px #d9e4ea;
 }
 
 
@@ -487,3 +537,64 @@ span {
   }
 }
 
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+  .container {
+      width: 90%;
+      margin: 0 auto;
+  }
+
+  .name,
+  .col {
+      float: left;
+  }
+
+  .primary,
+  .secondary {
+      width: 50%;
+  }
+
+  .main-nav {
+      float: right;
+  }
+
+  .main-nav li {
+      display: inline-block;
+      margin-left: 15px;
+  }
+
+  .tagline {
+      font-size: 1.4em;
+  }
+
+  /* ---- Float clearfix ---- */
+
+  .clearfix::after {
+      content: " ";
+      display: table;
+      clear: both;
+  }
+
+}
+
+@media (min-width: 1025px) {
+  
+  .container {
+      width: 80%;
+      max-width: 1150px;
+  }
+
+  .primary {
+      width: 40%;
+  }
+
+  .secondary,
+  .tertiary {
+      width: 30%;
+  }
+
+}
