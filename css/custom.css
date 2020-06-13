@@ -13,10 +13,22 @@ h2 {
 
 h3 {
     font-family: "Lato";
+    font-size: 30px;
 }
 
 p {
     font-family: "Lato";
+    font-size: 1.25em;
+}
+
+hr {
+    border-top: 5px solid white;
+    border-radius: 5px;
+}
+
+.container {
+    /* width: 1170px; */
+    /* width: 100%; */
 }
 
 
