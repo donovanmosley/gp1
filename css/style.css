@@ -544,7 +544,7 @@ span {
 /*----------------------------------------------------------------------------*/
 
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 769px) {
   .tablink {
     float: none;
     width: 100%;
@@ -555,12 +555,20 @@ span {
   }
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
 /* ================================= 
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
 
+
+@media screen and (min-width: 769px) {
+  
   .container {
       width: 90%;
       margin: 0 auto;

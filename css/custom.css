@@ -31,4 +31,49 @@ hr {
     /* width: 100%; */
 }
 
+@media (max-width: 975px) {
 
+    h1 {
+      font-size: 45px;
+    }
+
+    h3 {
+      font-size: 25px;
+    }
+}
+
+@media (max-width: 842px) {
+
+    .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+    }
+   
+    .header-image {
+        width: 75%;        
+    }
+    
+    /* .header-image {
+        float: left;
+    } */
+
+    .header-h1,
+    .header-h3 {
+        float: left;
+        width: 100%;
+        /* margin-left: 80px; */
+        text-align: center;
+    }
+
+    .header-h3 {
+        /* display: flex; */
+    }
+
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
