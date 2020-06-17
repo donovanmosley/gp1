@@ -4,7 +4,7 @@ body {
 
 h1 {
     font-family: "Englebert";
-    font-size: 55px;
+    font-size: 60px;
 }
 
 h2 {
@@ -31,14 +31,23 @@ hr {
     /* width: 100%; */
 }
 
-@media (max-width: 975px) {
+@media (max-width: 1050px) {
 
     h1 {
-      font-size: 45px;
+      /* font-size: 50px; */
+      text-align: center;
     }
 
     h3 {
       font-size: 25px;
+      text-align: center;
+    }
+
+    .long-hair-guinea {
+        /* width: 75%;         */
+        display: block;
+  margin: auto;
+  float: none;
     }
 }
 
@@ -50,8 +59,11 @@ hr {
         clear: both;
     }
    
-    .header-image {
-        width: 75%;        
+    .long-hair-guinea {
+        /* width: 75%;         */
+        display: block;
+        margin: auto;
+        float: none;
     }
     
     /* .header-image {
@@ -68,6 +80,43 @@ hr {
 
     .header-h3 {
         /* display: flex; */
+        /* margin-left: 5px; */
+    }
+
+    .header {
+        padding-left: 0px;
+    }
+
+    h1 {
+        margin-top: 5px;
+        font-size: 55px;
+    }
+
+    .guinea-in-grass {
+        float: none;
+        width: 100%;
+        border-radius: 7% 7% 7% 7%;
+        margin-bottom: 20px;
+    }
+
+    .brown-guinea {
+        float: none;
+        width: 100%;
+        border-radius: 7% 7% 7% 7%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .facts {
+        margin: auto;
+    }
+
+    .home-video {
+        /* margin-left: 20px; */
+        float: none;
+        width: 100%;
+        margin-bottom: 15px;
+
     }
 
 }
