@@ -149,6 +149,17 @@ i {
   border-radius: .35em;
 }
 
+.learning-link-2 {
+  border-radius: .35em;
+  color: #fff;
+  text-align: center;
+  font-style: normal;
+  background: #4bc970;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+}
+
 .text-block {
   position: absolute;
   top: 50px;
@@ -295,6 +306,21 @@ width: 100%;
   color: #030301;
 }
 
+.lights {
+  padding: .5px;
+  width: 100%;
+  margin-right: 15px;
+  border-top: white .5rem solid;
+}
+
+.circles {
+  background-color: pink;
+  border-top: white .5rem solid;
+  border-bottom: white .5rem solid;
+  text-align: center;
+  object-fit: contain;
+}
+
 form {
   /* Center the form on the page */
   margin: 0 auto;
@@ -360,12 +386,6 @@ button {
   /* This extra margin represent roughly the same space as the space
      between the labels and their text fields */
   margin-left: .5em;
-}
-
-.lights {
-  padding: .5px;
-  width: 50%;
-  margin-right: 15px;
 }
 
 a {
