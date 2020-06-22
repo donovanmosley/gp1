@@ -74,16 +74,6 @@
       </div><!--/.tertiary-->    
     
   </div><!--/.container-->
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
     <div class="content-1 clearfix">
@@ -91,7 +81,7 @@
       <img src="img/guinea_pig_in_grass.jpg" alt="Guinea pig in grass" class="guinea-in-grass rounded">
      
       <p>Home is where the heart is..</p>
-      <button class="button" onclick="openPage('About', this, '#87D982')">SUBSCRIBE TO NEWSLETTER!</button>
+      <button class="button" onclick="openPage('Subscribe', this, '#87D982')">SUBSCRIBE TO NEWSLETTER!</button>
 
     </div>
 
@@ -254,51 +244,54 @@
     <script src="myScript.js"></script>
   </div>
   
-  <h2>Subscribe</h2>
-  <p>Get in touch, or swing by for a cup of coffee.</p>
-  
+  <div class="subscribe-content">
+    <h2 class="subscribe-header">Join the party!</h2>
+    <p>Join over 25,000 other guinea pig friends on the My Guinea Piggies email list to get access to exclusive content on our monthly My Guinea Piggies Neweletter and Fun Facts</p>
+    <p class="subscribe-p">Zero spam. Unsubscribe at any time.</p>
+  </div>
+
   <form action="/my-handling-form-page" method="post">
-    <h3>Contact Information</h3>
-    <p>Required fields are followed by <abbr title="required">*</abbr>.</p>
-    <ul>
-     <li>
-       <label for="name"><abbr title="required">*</abbr>First name:</label>
-       <input type="text" id="first_name" name="user_name">
-     </li>
-     <li>
+   <div class="sub-header">
+      <h3>Contact Information</h3>
+      <p>Required fields are followed by <abbr title="required">*</abbr>.</p>
+    </div>
+    <ul>     
+      <li>
+      <label for="name"><abbr title="required">*</abbr>First name:</label>
+      <input type="text" id="first_name" name="user_name">
+      </li>
+      <li>
       <label for="name">*Last name:</label>
       <input type="text" id="last_name" name="user_name">
-    </li>
-     <li>
+      </li>
+      <li>
        <label for="mail">*E-mail:</label>
        <input type="email" id="mail" name="user_email">
-     </li>
-     <li>
-      <label for="breed">Favorite Guinea Breed:</label><br>
-      <select id="breed" name="usercard">
-        <option value="abyssinian">Abyssinian Guinea Pig</option>
-        <option value="alpaca">Alpaca Guinea Pig</option>
-        <option value="american">American Guinea Pig</option>
-        <option value="baldwin">Baldwin Guinea Pig</option>
-        <option value="coronet">Coronet Guinea Pig</option>
-        <option value="himalayan">Himalayan Guinea Pig</option>
-        <option value="lunkarya">Lunkarya Guinea Pig</option>
-        <option value="merino">Merino Guinea Pig</option>
-        <option value="peruvian">Peruvian Guinea Pig</option>
-        <option value="rex">Rex Guinea Pig</option>
-        <option value="sheba">Sheba Guinea Pig</option>
-        <option value="silkie">Silkie Guinea Pig</option>
-        <option value="skinny">Skinny Guinea Pig</option>
-      </select>
-    </li>
-     <li>
-       <label for="msg">Message:</label>
-       <textarea id="msg" name="user_message"></textarea>
-     </li>
-    </ul>
-    <p class="button">
-      <button type="submit">Subscribe!</button>
-    </p>
+      </li>
+      <li>
+        <label for="breed">Favorite Guinea Breed:</label><br>
+        <select id="breed" name="usercard">
+          <option value="abyssinian">Abyssinian Guinea Pig</option>
+          <option value="alpaca">Alpaca Guinea Pig</option>
+          <option value="american">American Guinea Pig</option>
+          <option value="baldwin">Baldwin Guinea Pig</option>
+          <option value="coronet">Coronet Guinea Pig</option>
+          <option value="himalayan">Himalayan Guinea Pig</option>
+          <option value="lunkarya">Lunkarya Guinea Pig</option>
+          <option value="merino">Merino Guinea Pig</option>
+          <option value="peruvian">Peruvian Guinea Pig</option>
+          <option value="rex">Rex Guinea Pig</option>
+          <option value="sheba">Sheba Guinea Pig</option>
+          <option value="silkie">Silkie Guinea Pig</option>
+          <option value="skinny">Skinny Guinea Pig</option>
+        </select>
+        </li>
+        <li>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+        </li>
+      </ul>
+      <button class= "button" type="submit">Join Now!</button>
    </form>
 
 </div>

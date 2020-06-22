@@ -32,7 +32,7 @@ var green;
 var blue;
 var rgbColor;
 
-for ( var i = 1; i <= 8; i +=1) {
+for ( var i = 1; i <= 12; i +=1) {
 red = Math.floor(Math.random() * 256 );
 green = Math.floor(Math.random() * 256 );
 blue = Math.floor(Math.random() * 256 );
