@@ -332,25 +332,31 @@ width: 100%;
 form {
   /* Center the form on the page */
   margin: 0 auto;
-  width: 100%;
+  width: 90%;
   /* Form outline */
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
+  padding: 10px 20px;
+  background: #f4f7f8;      
+  border-radius: 8px;
 }
 
 ul {
   list-style: none;
-  padding: 0;
+  padding: 5px;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 6em;
+  margin-left: 4em;
+
 }
 
-form li + li {
+/* form li + li {
   margin-top: 1em;
-}
+} */
+
+
 
 label {
   /* Uniform size & alignment */
@@ -388,6 +394,24 @@ textarea {
   /* Provide space to type some text */
   height: 5em;
 }
+
+/* input[type="text"],
+      input[type="email"],
+      textarea,
+      select {
+        background: rgba(255,255,255,0.1);
+        border: none;
+        font-size: 16px;
+        height: 50px;
+        margin: 0;
+        outline: 0;
+        padding: 15px;
+        width: ;
+        background-color: #e8eeef;
+        color: #8a97a0;
+        box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        margin-bottom: 30px;
+      } */
 
 .button {
   /* Align buttons with the text fields */
@@ -462,7 +486,7 @@ ol {
 }
 
 li {
-  padding: 8px 0;
+  padding: 20px 0;
   display: flex;
   width: 100%;
   margin: 0;
@@ -533,7 +557,22 @@ span {
 } */
 
 
-
+.subscribe-button {
+  /* Align buttons with the text fields */
+  position: relative;
+  left: 41%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  color: #fff;
+  text-align: center;
+  font-style: normal;
+  padding: .625em 5.25em;
+  background: #4bc970;
+  border: 1px solid #3ac162;
+  border-radius: .35em;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+}
 
 
 /*----------------------------------------------------------------------------*/
@@ -592,6 +631,7 @@ span {
   justify-content: center;
   margin: 2em 0 0;
   padding: 0;
+  flex-wrap: inherit;
 }
 
 .social-list__item {
@@ -628,6 +668,19 @@ span {
     display: inline-block;
     border-radius: 50%;
     margin: 5px;
+  }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* .footer-email{
+    width: 75%;
+  } */
+
+  .social-list {
+    padding: 0px;
   }
 
 }
@@ -676,7 +729,8 @@ span {
       font-size: 1.4em;
   }
 
-  
+
+
   /* ---- Float clearfix ---- */
 
   .clearfix::after {
