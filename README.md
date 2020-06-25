@@ -4,6 +4,7 @@
 Format: ![Long hair guinea pig](url)
 
 My Guinea Piggies project is an educational website about guinea pig types, behaviors, care, and all cute and wonderous things related to guinea pig life.  
+
 Through in-depth learning, My Guinea Piggies shows potential pet owners what to expect from owning a guinea pig and connect them with the right type.  
 
 This HTML, CSS, and JavaScript project features mastery of:
