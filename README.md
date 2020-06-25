@@ -1,7 +1,7 @@
 # gp1
 
 ![GitHub Logo](img/karlijn-prot-3fjyk4CLfvA-unsplash.jpg)
-Format: ![Long hair guinea pig](url)
+
 
 My Guinea Piggies project is an educational website about guinea pig types, behaviors, care, and all cute and wonderous things related to guinea pig life.  
 
