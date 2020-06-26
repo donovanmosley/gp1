@@ -527,6 +527,7 @@ li {
   display: inline-block;
   border-radius: 50%;
   margin: 5px;
+  border: 2px white solid;
 }
 
 .circle-responsive {
@@ -607,6 +608,10 @@ span {
   margin-top: 25px;
 }
 
+.footer-email {
+  margin-top: 10px;
+}
+
 .footer a {
   color: inherit;
   text-decoration: none;  
@@ -629,9 +634,11 @@ span {
   list-style: none;
   display: flex;
   justify-content: center;
-  margin: 2em 0 0;
+  flex-direction: row;
+  margin: .75em 0 0 5em;
   padding: 0;
   flex-wrap: inherit;
+  font-size: 20px;
 }
 
 .social-list__item {
@@ -673,14 +680,16 @@ span {
   .footer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
   }
-
-  /* .footer-email{
-    width: 75%;
-  } */
 
   .social-list {
     padding: 0px;
+  }
+
+  .social-list {
+    margin: .75em 0 0 48px;
   }
 
 }
@@ -692,12 +701,9 @@ span {
 
 
 
-
-/* ================================= 
-  Media Queries
-==================================== */
-
-
+/*----------------------------------------------------------------------------*/
+/*                                   MEDIA QUERY                              */
+/*----------------------------------------------------------------------------*/
 
 @media screen and (min-width: 769px) {
   
@@ -729,7 +735,9 @@ span {
       font-size: 1.4em;
   }
 
-
+  .social-list {
+    margin: .75em 0 0 48px;
+  }
 
   /* ---- Float clearfix ---- */
 
@@ -756,5 +764,7 @@ span {
   .tertiary {
       width: 30%;
   }
+
+
 
 }

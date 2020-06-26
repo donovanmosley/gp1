@@ -137,6 +137,13 @@ hr {
         width: 100%;
     }  
     
+    .social-list__item{
+        padding-top: 10px;
+      }
+
+    .social-list {
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 842px) {
