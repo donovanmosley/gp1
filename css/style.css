@@ -245,6 +245,9 @@ width: 100%;
   margin-left: 30px;
 }
 
+.fun-fact-list {
+  list-style-type: circle, 2em;
+}
 
 .button {
   color: #fff;
@@ -310,6 +313,14 @@ width: 100%;
 .learning-sounds {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.black-guinea {
+  float: right;
+  border: 7px solid #ddd;
+  padding: .5px;
+  width: 50%;
+  margin-left: 15px;
 }
 
 /*----------------------------------------------------------------------------*/
