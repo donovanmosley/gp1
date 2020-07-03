@@ -246,7 +246,9 @@ width: 100%;
 }
 
 .fun-fact-list {
-  list-style-type: circle, 2em;
+  padding: 5px;
+  margin-left: 4em;
+  font-size: 17px;
 }
 
 .button {
@@ -296,6 +298,24 @@ width: 100%;
 }
 
 .learning-welcome{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.learning-header {
+  display: inline-block;
+  text-align: center;
+  font-size: 55px;
+  background-color: white;
+  vertical-align: middle;
+  line-height: 100px;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.learning-welcome p {
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -307,6 +327,7 @@ width: 100%;
 
 .guinea-type-ol {
   /* text-align: left; */
+  font-size: 17px;
   
 }
 
@@ -380,15 +401,14 @@ form {
   border-radius: 8px;
 }
 
-ul {
-  list-style: none;
+/* ul {
   padding: 5px;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
   margin-left: 4em;
 
-}
+} */
 
 /* form li + li {
   margin-top: 1em;
@@ -513,24 +533,24 @@ h3 em {
   color: #8d9aa5;
 }
 
-ol {
+/* ol {
   margin: 0 0 20px 32px;
   padding: 0;
-}
+} */
 
 #home ol {
   list-style-type: none;
   margin: 0 0 40px 0;
 }
 
-li {
+/* li {
   padding: 20px 0;
   display: flex;
   width: 100%;
   margin: 0;
   counter-increment: step-counter;
   flex: 1 200px;
-}
+} */
 
 #home li::before {
     content: counter(step-counter);
