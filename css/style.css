@@ -168,7 +168,7 @@ i {
   color: white;
   padding-left: 20px;
   padding-right: 20px;
-  border-radius: .5em;
+  border-radius: 10px/30px;
   border: solid white;
 }
 
@@ -393,7 +393,6 @@ form {
   /* Center the form on the page */
   margin: 0 auto;
   width: 90%;
-  /* Form outline */
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
@@ -420,7 +419,6 @@ form {
 
 label {
   /* Uniform size & alignment */
-  /* display: inline-block; */
   width: 165px;
   text-align: left;
 }
@@ -454,24 +452,6 @@ textarea {
   /* Provide space to type some text */
   height: 5em;
 }
-
-/* input[type="text"],
-      input[type="email"],
-      textarea,
-      select {
-        background: rgba(255,255,255,0.1);
-        border: none;
-        font-size: 16px;
-        height: 50px;
-        margin: 0;
-        outline: 0;
-        padding: 15px;
-        width: ;
-        background-color: #e8eeef;
-        color: #8a97a0;
-        box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
-        margin-bottom: 30px;
-      } */
 
 .button {
   /* Align buttons with the text fields */
@@ -654,12 +634,16 @@ span {
     margin-right: 15px;
 }
 
+.about-me-header {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
 /*----------------------------------------------------------------------------*/
 /*                                     FOOTER                                 */
 /*----------------------------------------------------------------------------*/
 
-
-/* Footer */
 
 .footer {
   display: flex;
@@ -774,6 +758,19 @@ span {
 /*----------------------------------------------------------------------------*/
 /*                                   MEDIA QUERY                              */
 /*----------------------------------------------------------------------------*/
+
+@media screen and (max-width: 346px) {
+
+  .text-block {
+    position: unset;
+    text-align: center;
+  }
+
+  .carousel-caption > h3 {
+    font-size: 30px;
+  }
+
+}
 
 @media screen and (min-width: 769px) {
   
