@@ -257,6 +257,7 @@ width: 100%;
   font-style: normal;
   padding: .625em 4.25em;
   background: #4bc970;
+  /* Julia would like #DF6873 color used here*/
   border: 1px solid #3ac162;
   border-radius: .35em;
   border-width: 1px 1px 3px;
@@ -623,21 +624,31 @@ span {
 
 .about_me {
   color: #030301;
-  margin-top: 50px;
 }
 
 .about-img {
     float: left;
+    width: 50%;
     border: 7px solid #ddd;
     padding: .5px;
-    width: 50%;
-    margin-right: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.content-4 {
+  border-top: white .85rem solid;
 }
 
 .about-me-header {
-  color: white;
   text-align: center;
   font-size: 60px;
+  color: white;
+}
+
+.content-4 p {
+  padding-left: 20px;
+  padding-right: 35px;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -709,10 +720,48 @@ span {
 
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 
+@media screen and (max-width: 346px) {
+
+  .carousel-caption > h3 {
+    font-size: 30px;
+  }
+
+  .col {
+    padding-left: 0em;
+  }
+
+  .feat-img {
+    margin-left: -5px;
+  }
+
+  .learning-link-2 {
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.25em;
+    width: 75%;
+  }
+
+  .content-4 {
+    border-top: white .65rem solid;
+  }
+
+}
+
 @media screen and (max-width: 769px) {
+  
+  .subtitle {
+    padding-right: 10px;
+  }
+
   .tablink {
     float: none;
     width: 100%;
+  }
+
+  .text-block {
+    position: unset;
+    text-align: center;
   }
 
   .tabcontent {
@@ -746,30 +795,18 @@ span {
     margin: .75em 0 0 48px;
   }
 
+  .about-img{
+      float: none;
+      width: 90%;
+      border-radius: 7% 7% 7% 7%;
+      margin-bottom: 20px;
+  }
+
 }
 
 .container {
   width: 90%;
   margin: 0 auto;
-}
-
-
-
-/*----------------------------------------------------------------------------*/
-/*                                   MEDIA QUERY                              */
-/*----------------------------------------------------------------------------*/
-
-@media screen and (max-width: 346px) {
-
-  .text-block {
-    position: unset;
-    text-align: center;
-  }
-
-  .carousel-caption > h3 {
-    font-size: 30px;
-  }
-
 }
 
 @media screen and (min-width: 769px) {
