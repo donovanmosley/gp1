@@ -43,51 +43,36 @@ hr {
 }
 
 /*----------------------------------------------------------------------------*/
-/*                                 LEARNING CENTER STYLES                     */
-/*----------------------------------------------------------------------------*/
-
-.best-food {
-    font-size: 17px;
-    line-height: 1.75;
-}
-
-.best-food li {
-    margin: 0 0 15px 0;
-}
-
-/*----------------------------------------------------------------------------*/
 /*                                   MEDIA QUERY                              */
 /*----------------------------------------------------------------------------*/
 
 @media (max-width: 1050px) {
 
-    h1 {
-      text-align: center;
-    }
+ h1 {
+    text-align: center;
+ }
 
-    h3 {
-      font-size: 30px;
-      text-align: center;
-    }
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
 
-    .long-hair-guinea {
-        /* width: 75%; */
-        display: block;
-        margin: auto;
-        float: none;
-    }
- 
+ .long-hair-guinea {
+    display: block;
+    margin: auto;
+    float: none;
+ } 
 }
 
 @media (max-width: 1200px) {   
 
-    form {
-        max-width: 525px;
-        margin: 10px auto;
-        padding: 10px 20px;
-        background: #f4f7f8;
-        border-radius: 8px;
-      }
+form {
+    max-width: 525px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+}
 
       .form-ul {
         list-style: none;

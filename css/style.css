@@ -3,7 +3,7 @@
 }
 
 /*----------------------------------------------------------------------------*/
-/*                              Main Styles                                   */
+/*                                Header                                      */
 /*----------------------------------------------------------------------------*/
 
 .header {
@@ -12,12 +12,23 @@
   background: white;
   color: white;
   font-size: 20px;
-  /* display: inline; */
   background: url("/img/field_of_flowers.jpg");
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/* Set height of body and the document to 100% */
+.icon {
+  background: url('/img/guinea_pig_icon_w.png');
+  height: 55px;
+  width: 75px;
+  display: inline-block;
+  color: white;
+}
+
+/*----------------------------------------------------------------------------*/
+/*                              Main Styles                                   */
+/*----------------------------------------------------------------------------*/
+
+/* Keep height of body and the document set to 100% */
 body, html {
   height: 100%;
   margin: 0;
@@ -36,6 +47,54 @@ h1::first-letter {
   font-size: 60px;
 }
 
+button {
+  margin-left: .5em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f8aBf;
+}
+
+a:visited {
+  color: white;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+  color: #384047;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin: 60px 0 40px;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 0;
+    padding: 20px 0 20px 0;
+}
+
+h3 {
+  font-size: .9em;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+h3 em {
+  font-style: normal;
+  font-weight: 300;
+  margin: 0 0 10px 5px;
+  padding: 0;
+  color: #8d9aa5;
+}
 
 hr {
   height: 2px;
@@ -52,15 +111,6 @@ hr {
   margin-left: 20px;
   margin-bottom: 5px;
   font-family: "Lato";
-}
-
-.icon {
-  background: url('/img/guinea_pig_icon_w.png');
-  height: 55px;
-  width: 75px;
-  display: inline-block;
-  color: white;
-  /* Other styles here */
 }
 
 /*----------------------------------------------------------------------------*/
@@ -87,15 +137,12 @@ hr {
   color: #030301;
 }
 
-/* i {
-  padding-right: 1.5em;
-} */
-
 .tablink:hover {
   background-color: #777;
 }
 
-/* Style the tab content (and add height:100% for full page content) */
+/* Style the tab content (keep height:100% for full page content) */
+
 .tabcontent {
   color: #030301;
   display: none;
@@ -120,6 +167,24 @@ hr {
   clear: both;
 }
 
+#home h2 {
+  margin: -40px 0 0;
+}
+
+#home li::before {
+  content: counter(step-counter);
+  font-size: .65em;
+  color: #fff;
+  font-weight: 300;
+  padding: 2px 6px;
+  margin:  0 18px 0 0;
+  border-radius: 3px;
+  background:#8d9aa5;
+  line-height: 1em;
+}
+
+/*  Hero Image  */
+
 .long-hair-guinea {
   float: right;
   border: 7px solid white;
@@ -129,10 +194,12 @@ hr {
   margin-left: 15px;
   margin-top: 15px;
   border-radius: 50%;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
-.gp-mission{
+/*  Articles  */
+
+.gp-mission {
   position: relative;
 }
 
@@ -140,7 +207,7 @@ hr {
   width: 100%;
   margin: 0 auto;
   border-top: white .5rem solid;
-  /* padding-top: 0px; */
+  border-bottom: white .5rem solid;
 }
 
 .learning-link {
@@ -194,42 +261,30 @@ figure {
   position: relative;
 }
 
-figcaption {
-  font-size: .9em;
-  line-height: 1.5;
-  color: #fff;
-  padding: 1em;    
-  background: rgba(19,43,102, .85);
-
-position: absolute;
-bottom: 0;
-width: 100%;
-}
-
 .col {
   padding-right: 1em;
   padding-left: 1em;
 }
 
 .icon-location {
-    width: 35px;
-    position: absolute;
-    top: -15px;
-    right: -15px;
-  }
+  width: 35px;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
   
-  .feat-img {
-    width: 300px;
-    float: left;
-    margin-top: 5px;
-    margin-right: 25px;
-    margin-bottom: 25px;
-    padding: 10px;
-    border: solid 5px white;
+.feat-img {
+  width: 300px;
+  float: left;
+  margin-top: 5px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  padding: 10px;
+  border: solid 5px white;
 }
 
 
-/* Fact of the Day */
+/*  Fact of the Day  */
 
 .brown-guinea {
   float: right;
@@ -265,8 +320,7 @@ width: 100%;
   margin-top: 25px;
 }
 
-
-/* Tutorials */
+/*  Tutorials  */
 
 .home-video {
   float: left;
@@ -283,7 +337,7 @@ width: 100%;
 }
 
 /*----------------------------------------------------------------------------*/
-/*                                 LEARNING CENTER STYLES                                */
+/*                                 LEARNING CENTER STYLES                     */
 /*----------------------------------------------------------------------------*/
 
 .container {
@@ -293,10 +347,6 @@ width: 100%;
 .carousel {
   border-top: white .5rem solid;
   margin-top: 3px;
-}
-
-.carousel-caption {
-
 }
 
 .learning-welcome{
@@ -328,10 +378,10 @@ width: 100%;
 }
 
 .guinea-type-ol {
-  /* text-align: left; */
-  font-size: 17px;
-  
+  font-size: 17px;  
 }
+
+/*   Articles   */
 
 .learning-sounds {
   padding-left: 40px;
@@ -359,6 +409,25 @@ width: 100%;
   margin-bottom: 20px;
 }
 
+.best-food {
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.best-food li {
+  margin: 0 0 15px 0;
+}
+
+.sleeping-guinea {
+  float: left;
+  border-radius: 7% 7% 7% 7%;
+  border: 7px solid #ddd;
+  padding: .5px;
+  width: 50%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 /*----------------------------------------------------------------------------*/
 /*                                 SUBSCRIBE STYLES                           */
 /*----------------------------------------------------------------------------*/
@@ -366,6 +435,8 @@ width: 100%;
 .subscribe{
   color: #030301;
 }
+
+/*   Circle Lights   */
 
 .lights {
   padding: .5px;
@@ -381,6 +452,28 @@ width: 100%;
   text-align: center;
 }
 
+#color div {
+  width: 7%;
+  height: 0;
+  padding-bottom: 7%;
+  max-width: px;
+  max-height: px;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 5px;
+  border: 2px white solid;
+}
+
+.circle-responsive {
+  background: #ddd;
+  border-radius: 50%;
+  height: 0;
+  padding-bottom: 100%;
+  width: 100%;
+}
+
+/*   Subscribe Form   */
+
 .subscribe-content {
   text-align: center;
   margin: 20px;
@@ -391,7 +484,6 @@ width: 100%;
 }
 
 form {
-  /* Center the form on the page */
   margin: 0 auto;
   width: 90%;
   padding: 1em;
@@ -417,190 +509,41 @@ form {
   margin-left: 30px;
 }
 
-
 label {
   /* Uniform size & alignment */
   width: 165px;
   text-align: left;
 }
 
-
 input, 
 textarea,
 select {
-  /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
   font: 1em sans-serif;
-
-  /* Uniform text field size */
   width: 300px;
   box-sizing: border-box;
-
-  /* Match form field borders */
   border: 1px solid #999;
 }
 
 input:focus, 
 textarea:focus {
-  /* Additional highlight for focused elements */
   border-color: #000;
 }
 
 textarea {
-  /* Align multiline text fields with their labels */
   vertical-align: top;
-
-  /* Provide space to type some text */
   height: 5em;
 }
 
 .button {
-  /* Align buttons with the text fields */
-  padding-left: 90px; /* same size as the label elements */
+  padding-left: 90px; 
 }
 
-button {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
-  margin-left: .5em;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
-
-
-a:hover {
-  color: #3f8aBf;
-}
-
-a:visited {
-  color: white;
-}
-
-h1, h2, h3 {
-  font-weight: 500;
-  color: #384047;
-}
-
-h1 {
-  font-size: 1.8em;
-  margin: 60px 0 40px;
-}
-
-h2 {
-    font-size: 1em;
-    font-weight: 300;
-    margin: 0;
-    padding: 20px 0 20px 0;
-}
-
-#home h2 {
-  margin: -40px 0 0;
-}
-
-h3 {
-  font-size: .9em;
-  font-weight: 300;
-  margin: 0;
-  padding: 0;
-}
-
-h3 em {
-  font-style: normal;
-  font-weight: 300;
-  margin: 0 0 10px 5px;
-  padding: 0;
-  color: #8d9aa5;
-}
-
-/* ol {
-  margin: 0 0 20px 32px;
-  padding: 0;
-} */
-
-#home ol {
-  list-style-type: none;
-  margin: 0 0 40px 0;
-}
-
-/* li {
-  padding: 20px 0;
-  display: flex;
-  width: 100%;
-  margin: 0;
-  counter-increment: step-counter;
-  flex: 1 200px;
-} */
-
-#home li::before {
-    content: counter(step-counter);
-    font-size: .65em;
-    color: #fff;
-    font-weight: 300;
-    padding: 2px 6px;
-    margin:  0 18px 0 0;
-    border-radius: 3px;
-    background:#8d9aa5;
-    line-height: 1em;
-}
-
-.lens {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent;
-  border-right: 8px solid #8d9aa5;
-  border-radius: 5px;
-  position: absolute;
-  margin: 5px 0 0 -19px;
-}
-
-#color div {
-  width: 7%;
-  height: 0;
-  padding-bottom: 7%;
-  max-width: px;
-  max-height: px;
-  display: inline-block;
-  border-radius: 50%;
-  margin: 5px;
-  border: 2px white solid;
-}
-
-.circle-responsive {
-  background: #ddd;
-  border-radius: 50%;
-  height: 0;
-  padding-bottom: 100%;
-  width: 100%;
-}
-
-/* .circle {
-  position: relative;
-  border-radius: 50%;
-  width: 100%;
-  height: auto;
-  padding-top: 100%;
-  background: white;
-  } */
 
 span {
   color: white;
 }
 
-/* .name-fields {
-  display: flex;
-  color: black;
-  padding: 30px 0 30px 0;
-} */
-
-
 .subscribe-button {
-  /* Align buttons with the text fields */
   position: relative;
   left: 41%;
   margin-top: 25px;
@@ -616,34 +559,32 @@ span {
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
 }
 
-
 /*----------------------------------------------------------------------------*/
 /*                                 ABOUT ME STYLES                            */
 /*----------------------------------------------------------------------------*/
-
 
 .about_me {
   color: #030301;
 }
 
 .about-img {
-    float: left;
-    width: 50%;
-    border: 7px solid #ddd;
-    padding: .5px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 30px;
-}
-
-.content-4 {
-  border-top: white .85rem solid;
+  float: left;
+  width: 50%;
+  border: 7px solid #ddd;
+  padding: .5px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 30px;
 }
 
 .about-me-header {
   text-align: center;
   font-size: 60px;
   color: white;
+}
+
+.content-4 {
+  border-top: white .85rem solid;
 }
 
 .content-4 p {
@@ -655,7 +596,6 @@ span {
 /*                                     FOOTER                                 */
 /*----------------------------------------------------------------------------*/
 
-
 .footer {
   display: flex;
   justify-content: space-around;
@@ -663,13 +603,8 @@ span {
   padding: 3px;
   background-color: #555;
   color: white;
-  /* text-align: center; */
   padding: 1.0em 0;
   font-size: var(--fs-h3);
-}
-
-.footer > p {
-  /* margin-top: 25px; */
 }
 
 .footer-email {
@@ -703,11 +638,6 @@ span {
   flex-direction: row;
   padding: 0;
   flex-wrap: inherit;
-  /* font-size: 20px; */
-}
-
-.social-list__item {
-  /* margin: 0 .5em; */
 }
 
 .social-list__link {
@@ -716,9 +646,7 @@ span {
 
 .social-list__item i {
   font-size: 30px;
-  /* color: red; */
 }
-
 
 /*----------------------------------------------------------------------------*/
 /*                                   MEDIA QUERY                              */
@@ -751,7 +679,6 @@ span {
   .content-4 {
     border-top: white .65rem solid;
   }
-
 }
 
 @media screen and (max-width: 769px) {
@@ -802,21 +729,12 @@ span {
     padding: 0px;
   }
 
-  .social-list {
-    /* margin: .75em 0 0 48px; */
-  }
-
-  .social-list__item i {
-    /* color: red; */
-  }
-
   .about-img{
       float: none;
       width: 90%;
       border-radius: 7% 7% 7% 7%;
       margin-bottom: 20px;
   }
-
 }
 
 .container {
@@ -825,7 +743,7 @@ span {
 }
 
 @media screen and (min-width: 769px) {
-  
+
   .container {
       width: 90%;
       margin: 0 auto;
@@ -857,15 +775,6 @@ span {
   .social-list {
     margin: .75em 0 0 48px;
   }
-
-  /* ---- Float clearfix ---- */
-
-  .clearfix::after {
-      content: " ";
-      display: table;
-      clear: both;
-  }
-
 }
 
 @media (min-width: 1025px) {
@@ -883,7 +792,4 @@ span {
   .tertiary {
       width: 30%;
   }
-
-
-
 }
