@@ -239,6 +239,30 @@ hr {
   border: solid white;
 }
 
+.second-text-block {
+  position: absolute;
+  top: 150px;
+  right: 20px;
+  background-color: #413C58;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px/30px;
+  border: solid white;
+}
+
+.third-text-block {
+  position: absolute;
+  top: 250px;
+  right: 20px;
+  background-color: #413C58;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px/30px;
+  border: solid white;
+}
+
 .guinea-in-grass {
   float: left;
   border: 7px solid #ddd;
@@ -392,7 +416,6 @@ figure {
   float: right;
   border-radius: 7% 7% 7% 7%;
   border: 7px solid #ddd;
-  padding: .5px;
   width: 50%;
   margin-left: 15px;
 }
@@ -422,7 +445,6 @@ figure {
   float: left;
   border-radius: 7% 7% 7% 7%;
   border: 7px solid #ddd;
-  padding: .5px;
   width: 50%;
   margin-left: 15px;
   margin-right: 15px;
@@ -631,6 +653,8 @@ span {
   text-decoration: underline;
 }
 
+/*  Social Media Icons  */
+
 .social-list {
   list-style: none;
   display: flex;
@@ -692,9 +716,15 @@ span {
     width: 100%;
   }
 
-  .text-block {
+  .text-block,
+  .second-text-block,
+  .third-text-block {
     position: unset;
     text-align: center;
+  }
+
+  .text-block{
+    margin-top: 10px;
   }
 
   .tabcontent {

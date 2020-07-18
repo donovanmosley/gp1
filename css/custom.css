@@ -33,7 +33,7 @@ p {
 
 .subscribe-p {
     font-weight: bold;
-  }
+}
 
 hr {
     border-top: 5px solid white;
@@ -52,10 +52,10 @@ hr {
     text-align: center;
  }
 
-h3 {
+ h3 {
     font-size: 30px;
     text-align: center;
-}
+ }
 
  .long-hair-guinea {
     display: block;
@@ -186,7 +186,6 @@ form {
     .black-guinea {
         float: none;
         width: 100%;
-        border-radius: 7% 7% 7% 7%;
         margin: auto;
         margin-bottom: 20px;
     }
@@ -202,6 +201,16 @@ form {
 
     }
 
+    .kitchen-guinea {
+        width: 100%;
+      }
+
+    .sleeping-guinea {
+        float: none;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+      }
 }
 
 .clearfix::after {
