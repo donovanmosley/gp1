@@ -433,18 +433,20 @@ figure {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  height: 75%;
 }
 
 .modal-image {
+  float: left;
   border: 7px solid #ddd;
   padding: .5px;
   width: 50%;
   margin-left: 15px;
+  margin-right: 20px;
 }
 
-.modal-content p {
-  float: right;
-  text-align: center;
+.modal-content > h2 {
+  margin: 0px;
 }
 
 /* The Close Button */
@@ -845,6 +847,17 @@ span {
   .myguineas {
     width: 75%;
   }
+
+  .modal-image {
+    float: none;
+    border: 7px solid #ddd;
+    padding: .5px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  
 
 }
 
