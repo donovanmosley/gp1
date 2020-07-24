@@ -848,6 +848,10 @@ span {
     width: 75%;
   }
 
+  .modal {
+    overflow: visible;
+  }
+
   .modal-image {
     float: none;
     border: 7px solid #ddd;
@@ -858,6 +862,9 @@ span {
     margin-top: 10px;
   }
   
+  .modal-content {
+    height: 100%;
+  }
 
 }
 
