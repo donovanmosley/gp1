@@ -107,7 +107,7 @@ hr {
 }
 
 .subtitle {
-  margin-top: 10px;
+  margin-top: 0px;
   margin-left: 20px;
   margin-bottom: 5px;
   font-family: "Lato";
@@ -233,10 +233,11 @@ hr {
   right: 20px;
   background-color: #413C58;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 32px;
+  padding-right: 32px;
   border-radius: 10px/30px;
   border: solid white;
+  text-align: center;
 }
 
 .second-text-block {
@@ -249,6 +250,7 @@ hr {
   padding-right: 20px;
   border-radius: 10px/30px;
   border: solid white;
+  text-align: center;
 }
 
 .third-text-block {
@@ -257,10 +259,11 @@ hr {
   right: 20px;
   background-color: #413C58;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 32px;
+  padding-right: 32px;
   border-radius: 10px/30px;
   border: solid white;
+  text-align: center;
 }
 
 .guinea-in-grass {
@@ -359,12 +362,6 @@ figure {
   margin-left: 30px;
   margin-right: 30px;
 }
-
-/* .content-1 {
-  background-color: green;
-  width:xxpx;
-  height:xxpx;
-} */
 
 /*----------------------------------------------------------------------------*/
 /*                                 LEARNING CENTER STYLES                     */
@@ -806,11 +803,10 @@ span {
   }
 
   #color div {
-    width: 6%;
+    width: 5.25%;
     height: 0;
     padding-bottom: 6%;
-    max-width: px;
-    max-height: px;
+    max-width: 19px;
     display: inline-block;
     border-radius: 50%;
     margin: 5px;
